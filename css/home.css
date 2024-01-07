@@ -1,0 +1,36 @@
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.pinimg.com/originals/8a/e8/26/8ae826dba6a224dba3e49bf045583254.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: brightness(50%); */
+  box-shadow: inset 0px -40px 40px #000;
+}
+
+.home::after {
+  background-color: #000000;
+}
+
+.profile__foto {
+  filter: brightness(70%);
+  border: 5px solid var(--primary-color);
+  border-radius: 50%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.profile__text {
+  font-size: 1.5rem;
+}
+
+.profile__name {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
